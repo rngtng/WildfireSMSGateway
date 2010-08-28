@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+    <!-- Main plugin class -->
+    <class>de.warteschlange.wildfire.plugin.SMSGatewayPlugin</class>
+    
+    <!-- Plugin meta-data -->
+    <name>SMSGateway</name>
+    <description>Send SMS messages to mobilephones</description>
+    <author>Tobias Bielohlawek</author>
+    <version>0.6</version>
+    <date>02/23/2007</date>
+    <minServerVersion>3.0.0</minServerVersion>
+    
+    
+    <adminconsole>		
+
+       <tab id="tab-users">
+	  <sidebar id="smsgateway" name="SMSGateway">
+	   <item id="smsgateway-users" name="User Summary" url="users.jsp" description="SMSGateway Users" />
+           <item id="smsgateway-contacts" name="Contact Summary" url="contacts.jsp" description="SMSGateway Contacts" />
+	  </sidebar>
+        </tab>
+        
+    </adminconsole>
+    
+</plugin>

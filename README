@@ -1,0 +1,13 @@
+A openfire (aka. wildfire) plugin to send SMS via the any-sms.de Gateway
+
+Openfire:  http://www.igniterealtime.org/projects/openfire/index.jsp
+AnySMS: http://www.any-sms.de
+
+INSTALLATION:
+
+make sure to edit those values in SMSGatewayMessage.java:
+
+private static String GATEWAY_ID = "xxxx";
+private static String GATEWAY_PASSWORD = "xxxxx";
+
+run db_structure.sql on your database
